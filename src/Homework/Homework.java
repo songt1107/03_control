@@ -69,23 +69,28 @@ public class Homework {
 	
 	
 	public void ex8() {
-		
 		Scanner sc = new Scanner(System.in);
-		
-		System.out.print("나이 : ");
+
+		System.out.print("나이: ");
 		int age = sc.nextInt();
-		
-		System.out.print("키 : ");
+
+		System.out.print("키: ");
 		double height = sc.nextDouble();
+
+		boolean unsuitable = false;
 
 		if (age < 0 || age > 100) {
 			System.out.println("나이를 잘못 입력하셨습니다.");
-			return;
+			unsuitable = true;
 		}
 
 		if (height < 0 || height > 250.0) {
 			System.out.println("키를 잘못 입력하셨습니다.");
-			return;
+			unsuitable = true;
+		}
+
+		if (unsuitable) {
+			System.exit(0);
 		}
 
 		if (age >= 12 && height >= 140) {
@@ -97,7 +102,5 @@ public class Homework {
 		} else {
 			System.out.println("나이와 키 모두 적절치 않음");
 		}
-		
 	}
-	
 }
