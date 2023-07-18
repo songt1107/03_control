@@ -10,7 +10,12 @@ public class ConditionRun {
 		//condition.ex1();
 		//condition.ex2();
 		//condition.ex3();
-		condition.ex4();
+		//condition.ex4();
+		
+		SwitchExample switchEx = new SwitchExample();
+		
+		//switchEx.ex1();
+		switchEx.ex2();
 		
 	}
 }
