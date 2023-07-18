@@ -68,8 +68,4 @@ public class SwitchExample {
 		System.out.print(result);
 	}
 	
-	
-	
-	
-	
 }
