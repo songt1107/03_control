@@ -5,9 +5,10 @@ import java.util.Scanner;
 
 public class Homework {
 
+	Scanner sc = new Scanner(System.in);
+	
+	
 	public void ex5() {
-		
-		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("나이: ");
 		int age = sc.nextInt();
@@ -22,9 +23,8 @@ public class Homework {
 		
 	}
 	
+	
 	public void ex6() {
-		
-		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("점수 : ");
 		int score = sc.nextInt();
@@ -45,9 +45,8 @@ public class Homework {
 		
 	}
 	
+	
 	public void ex7() {
-		
-		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("나이 : ");
 		int age = sc.nextInt();
@@ -69,26 +68,28 @@ public class Homework {
 	
 	
 	public void ex8() {
-		Scanner sc = new Scanner(System.in);
-
-		System.out.print("나이: ");
-		int age = sc.nextInt();
-
-		System.out.print("키: ");
-		double height = sc.nextDouble();
 
 		boolean unsuitable = false;
+		
+		System.out.print("나이: ");
+		int age = sc.nextInt();
 
 		if (age < 0 || age > 100) {
 			System.out.println("나이를 잘못 입력하셨습니다.");
 			unsuitable = true;
 		}
-
+		
+		if (unsuitable) {
+			System.exit(0);
+		}
+		System.out.print("키: ");
+		double height = sc.nextDouble();
+		
 		if (height < 0 || height > 250.0) {
 			System.out.println("키를 잘못 입력하셨습니다.");
 			unsuitable = true;
 		}
-
+		
 		if (unsuitable) {
 			System.exit(0);
 		}
