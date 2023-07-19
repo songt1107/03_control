@@ -6,10 +6,10 @@ public class Run2 {
 		
 		LoopPractice exam = new LoopPractice();
 		
-		exam.practice1();
-		exam.practice2();
-		exam.practice3();
-		exam.practice4();
+		//exam.practice1();
+		//exam.practice2();
+		//exam.practice3();
+		//exam.practice4();
 		exam.practice5();
 	
 	
