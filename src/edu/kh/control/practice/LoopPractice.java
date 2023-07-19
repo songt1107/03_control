@@ -239,7 +239,7 @@ public class LoopPractice {
 			}
 			
 		}
-		System.out.printf("\n" + "count : %d",count);
+		System.out.printf("\ncount : " + count);
 	}
 	
 }

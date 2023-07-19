@@ -15,10 +15,10 @@ public class Run2 {
 		//exam.practice7();
 		//exam.practice8();
 		//exam.practice9();
-		exam.practice10();
+		//exam.practice10();
 		//exam.practice11();
 		//exam.practice12();
-		//exam.practice13();
+		exam.practice13();
 	
 	
 	
